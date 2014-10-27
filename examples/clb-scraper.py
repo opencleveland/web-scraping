@@ -6,8 +6,11 @@
 # Usage:
 #   python clb-scraper.py URL_TO_SCRAPE > output.tsv
 # 
-# Convert to CSV:
+# Convert tab-separated output to CSV with tr, grep, and sed:
 #   tr "\t" "," < output.tsv |grep -v "X,Sorted By: "|grep -v ",PPN,Street"|grep -v -e'^$' |sed -e's/,\(.*\),Parcel Map/\1/g' > output.csv
+#
+# Convert tab-separated output to CSV with awk:
+#   awk -F "\t" '$2~/[0-9]+/{line="";for(i=2;i<NF;i++){if(i>2){line=line","}line=line$i}print line}' output.tsv > output.csv
 #
 
 import sys
