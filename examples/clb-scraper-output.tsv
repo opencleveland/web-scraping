@@ -1,0 +1,10 @@
+	PPN	Street Number	Street Name	SPA	SPA Name	Frontage of Parcel	Depth of Parcel	Sqfeet	Ward	Old_Ward	Buildescr	
+
+X	Sorted By: PPN ascending
+	00107070	1353	93 ST	0	 	40	126	5040	16	0	Buildable	Parcel Map
+	00107089	1320	93 ST	5	Edgewater	40	148	5920	16	18	Buildable	Parcel Map
+	00108025	1368	83 ST	8	Detroit-Shoreway	39	0	3360	15	17	Non-Buildable	Parcel Map
+	00109036	1284	W 87 ST	0	 	40	96	3840	16	0	Non-Buildable	Parcel Map
+	00109039	1296	W 87 ST	5	Edgewater	40	96	3840	16	18	Non-Buildable	Parcel Map
+	00109067	1319	ELM CT	0	 	31	103	3049	15	0	Non-Buildable	Parcel Map
+	00109073	83	W 83 ST	8	Detroit-Shoreway	10	132	1320	15	17	Non-Buildable	Parcel Map
